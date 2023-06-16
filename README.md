@@ -136,11 +136,11 @@ Reduced the parameters
 
 2. Get Consitent Accuracy 99.4% / reduce fluctuations.
 ### Result
-1. Highest Train Accuracy -98.28
+1. Highest Train Accuracy -98.19
 
-2. Highest test Accuracy - 99.41
+2. Highest test Accuracy - 99.49
 
-3. No of Parameters - 9.5k
+3. No of Parameters - 7.5k
 ### Analysis
 1. Reduced the dropout to 0.04
 
@@ -148,19 +148,47 @@ Reduced the parameters
 
 3. Applied Step lr to reduce fluctuations and Image Augmentation Techniques
 
+```
+EPOCH: 7
+Loss=0.034668635576963425 Batch_id=468 Accuracy=97.74: 100%|██████████| 469/469 [00:42<00:00, 10.93it/s]
+
+Test set: Average loss: 0.0220, Accuracy: 9931/10000 (99.31%)
+
+EPOCH: 8
+Loss=0.06437068432569504 Batch_id=468 Accuracy=98.00: 100%|██████████| 469/469 [00:46<00:00, 10.01it/s]
+
+Test set: Average loss: 0.0189, Accuracy: 9945/10000 (99.45%)
+
+EPOCH: 9
+Loss=0.13179419934749603 Batch_id=468 Accuracy=98.09: 100%|██████████| 469/469 [00:42<00:00, 10.93it/s]
+
+Test set: Average loss: 0.0189, Accuracy: 9941/10000 (99.41%)
+
+EPOCH: 10
+Loss=0.04678237810730934 Batch_id=468 Accuracy=98.12: 100%|██████████| 469/469 [00:43<00:00, 10.85it/s]
+
+Test set: Average loss: 0.0186, Accuracy: 9943/10000 (99.43%)
+
+EPOCH: 11
+Loss=0.0484786331653595 Batch_id=468 Accuracy=98.19: 100%|██████████| 469/469 [00:42<00:00, 11.08it/s]
+
+Test set: Average loss: 0.0188, Accuracy: 9940/10000 (99.40%)
+
+EPOCH: 12
+Loss=0.033591706305742264 Batch_id=468 Accuracy=98.17: 100%|██████████| 469/469 [00:42<00:00, 11.12it/s]
+
+Test set: Average loss: 0.0181, Accuracy: 9945/10000 (99.45%)
+
+EPOCH: 13
+Loss=0.06325388699769974 Batch_id=468 Accuracy=98.21: 100%|██████████| 469/469 [00:42<00:00, 11.10it/s]
+
+Test set: Average loss: 0.0180, Accuracy: 9949/10000 (99.49%)
+
+EPOCH: 14
+Loss=0.0154658118262887 Batch_id=468 Accuracy=98.17: 100%|██████████| 469/469 [00:43<00:00, 10.90it/s]
+
+Test set: Average loss: 0.0180, Accuracy: 9948/10000 (99.48%)
+```
+
 ### Plots for Step-6
-
-![download (4)](https://user-images.githubusercontent.com/62477860/120856902-1a333400-c59e-11eb-91da-3a2ad14ff7c8.png)
-
----
-<h3 align="center">Thank you</h3>
-
----
-# Team
-- Madhu Charan
-- Siddharth Aggarwal
-- Sijuade Oguntayo
-- Deepika
-
-
-
+[![image.png](https://i.postimg.cc/WtRGgCNr/image.png)](https://postimg.cc/5Q3QMPFN)
